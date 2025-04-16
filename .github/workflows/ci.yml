@@ -19,5 +19,8 @@ jobs:
               run: ls
 
             - name: Print the Content of hello.txt
-              run: cat hello.txt
+              run: | 
+                cat hello.txt
+                sudo apt-get install nginx
+                echo "hello World Somethig"
             
