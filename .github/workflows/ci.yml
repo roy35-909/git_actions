@@ -20,7 +20,7 @@ jobs:
 
             - name: Print the Content of hello.txt
               run: | 
-                cat hello.txt
+                cattt hello.txt
                 sudo apt-get install nginx
                 echo "hello World Somethig"
             
