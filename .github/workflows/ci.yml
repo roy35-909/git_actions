@@ -12,3 +12,6 @@ jobs:
         steps:
             - name: print Hello World
               run: echo "hello world"
+
+            - name: List Everyting 
+              run: ls
